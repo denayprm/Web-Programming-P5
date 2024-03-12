@@ -1,102 +1,103 @@
 <html lang="en">
-    <style>
-        body {
-            font-family: 'Helvetica', sans-serif;
-            font-size: 16px;
-        }
-        h1 {
-            font-family: 'Verdana', serif;
-            font-size: 24px;
-        }
-        p {
-            font-family: 'Georgia', sans-serif;
-            font-size: 14px;
-        }
-        .red-text {
-            color: red;
-            font-family: 'Georgia', sans-serif;
-            font-size: 14px;
-        }
-        .black-text {
-            color: black;
-        }
-        .fieldset-border {
-            border: transparent;
-        }
-        .label-text {
-            display: inline-block;
-            width: 120px;
-            text-align: left;
-            margin-right: 10px;
-        }
-        .input-text {
-            width: 250px;
-            box-sizing: border-box;
-            margin-bottom: 10px;
-        }
-        output {
-            display: inline-block;
-            vertical-align: top;
-            margin-top: 5px;
-            margin-left: 135px;
-        }
-        a {
-            color: blue;
-        }
-        .spaced-text {
-            margin-left: 15px;
-        }
-        p {
-            margin: 5px;
-        }
-        form {
-            margin: 0px;
-        }
-    </style>
     <head>
+        <style>
+            body {
+                font-family: 'Times New Roman', sans-serif;
+                font-size: 16px;
+            }
+            h1 {
+                font-family: 'Times New Roman', serif;
+                font-size: 24px;
+            }
+            p {
+                font-family: 'Times New Roman', sans-serif;
+                font-size: 14px;
+            }
+            .red-text {
+                color: red;
+                font-family: 'Times New Roman', sans-serif;
+                font-size: 14px;
+            }
+            .black-text {
+                color: black;
+            }
+            .fieldset-border {
+                border: transparent;
+            }
+            .label-text {
+                display: inline-block;
+                width: 120px;
+                text-align: left;
+                margin-right: 10px;
+            }
+            .input-text {
+                width: 250px;
+                box-sizing: border-box;
+                margin-bottom: 10px;
+            }
+            output {
+                display: inline-block;
+                vertical-align: top;
+                margin-top: 5px;
+                margin-left: 135px;
+            }
+            a {
+                color: blue;
+            }
+            .spaced-text {
+                margin-left: 15px;
+            }
+            p {
+                margin: 5px;
+            }
+            form {
+                margin: 0px;
+            }
+        </style>
         <title>Tugas 5 - Deni Permana 2210512015</title>
-        <body>
-            <table>
-                <tr><td>
-                    <form action="formIsi1.php" method="post">
-                        <fieldset class="fieldset-border">
-                            <p>
-                                <Label class="label-text"><span class="red-text">*</span><b>First Name</b></Label>
-                                <input type="text" name="first_name" size="30px">
-                            </p>
-                            <p>
-                                <Label class="label-text"><span class="red-text">*</span><b>Last Name</b></Label>
-                                <input type="text" name="last_name" size="30px">
-                            </p>
-                            <p>
-                                <label class="label-text"><b>Company</b></label>
-                                <input type="text" name="company" size="30px">
-                            </p>
-                            <p>
-                                <Label class="label-text"><span class="red-text">*</span><b>Phone</b></Label>
-                                <input type="text" name="phone"size="10px"> <input type="text" name="phone" size="5px">
-                                <a target="_parent" href="TugasP3deni.html" > Incl.Number?</a>
-                                <br><output><i>Phone Number. <span class="spaced-text">  Ext</span></i> </output></br>
-                            </p>
-                            <p>
-                                <label class="label-text"><span class="red-text">*</span><b>Email</b></label>
-                                <input type="text" name="email" size="30px">
-                            </p>
-                            <p>
-                                <label class="label-text"><span class="red-text">*</span><b>Re-type Email</b></label>
-                                <input type="text" name="retype_email" size="30px">
-                                <br><output><i>Enter an address where we can send an e-mail confirming your order.</i> </output></br>
-                            </p>
-                        </fieldset>
-                    </form>
-                </td></tr>
-            </table>
-            <form action="formIsi1.php" method="post">
-                <label><b>Are you shipping this order to yor billing addres?</b></label>
-                <label><input type="radio" name="Are you shipping this order to yor billing addres?" value="yes"/>Yes</label>
-                <label><input type="radio" name="Are you shipping this order to yor billing addres?" value="no"/>No</label>
-            </form>
-            <p><br>© By Deni Permana 2210512015 - 2024</p>
-        </body>
     </head>
+    <body>
+        <table>
+            <tr><td>
+                <form action="formIsi1.php" method="post">
+                    <fieldset class="fieldset-border">
+                        <p>
+                            <Label class="label-text"><span class="red-text">*</span><b>First Name</b></Label>
+                            <input type="text" name="first_name" size="30px">
+                        </p>
+                        <p>
+                            <Label class="label-text"><span class="red-text">*</span><b>Last Name</b></Label>
+                            <input type="text" name="last_name" size="30px">
+                        </p>
+                        <p>
+                            <label class="label-text"><b>Company</b></label>
+                            <input type="text" name="company" size="30px">
+                        </p>
+                        <p>
+                            <Label class="label-text"><span class="red-text">*</span><b>Phone</b></Label>
+                            <input type="text" name="phone"size="10px"> <input type="text" name="phone" size="5px">
+                            <a target="_parent" href="TugasP3deni.html" > Incl.Number?</a>
+                            <br><output><i>Phone Number. <span class="spaced-text">Ext.</span></i> </output></br>
+                        </p>
+                        <p>
+                            <label class="label-text"><span class="red-text">*</span><b>Email</b></label>
+                            <input type="text" name="email" size="30px">
+                        </p>
+                        <p>
+                            <label class="label-text"><span class="red-text">*</span><b>Re-type Email</b></label>
+                            <input type="text" name="retype_email" size="30px">
+                            <br><output><i>Enter an address where we can send an e-mail confirming your order.</i> </output></br>
+                        </p>
+                    </fieldset>
+                </form>
+            </td></tr>
+        </table>
+        <form action="formIsi1.php" method="post">
+            <label><b>Are you shipping this order to yor billing addres?</b></label>
+            <label><input type="radio" name="Are you shipping this order to yor billing addres?" value="yes"/>Yes</label>
+            <label><input type="radio" name="Are you shipping this order to yor billing addres?" value="no"/>No</label>
+        </form>
+        <p><br>© By Deni Permana 2210512015 - 2024</p>
+    </body>
+
 </html>
