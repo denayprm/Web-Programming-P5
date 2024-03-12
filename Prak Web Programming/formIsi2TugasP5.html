@@ -1,0 +1,88 @@
+<html lang="en">
+    <style>
+        body {
+            font-family: 'Helvetica', sans-serif;
+            font-size: 16px;
+        }
+        h1 {
+            font-family: 'Verdana', serif;
+            font-size: 24px;
+        }
+        p {
+            font-family: 'Georgia', sans-serif;
+            font-size: 14px;
+        }
+        .red-text {
+            color: red;
+            font-family: 'Georgia', sans-serif;
+            font-size: 14px;
+        }
+        .black-text {
+            color: black;
+        }
+        .fieldset-border {
+            border: transparent;
+        }
+        .label-text {
+            display: inline-block;
+            width: 85px;
+            text-align: left;
+            margin-right: 10px;
+        }
+        .input-text {
+            width: 250px;
+            box-sizing: border-box;
+            margin-bottom: 10px;
+        }
+        .spaced-input {
+            margin-left: 99px;
+        }
+        p {
+            margin: 5px;
+        }
+    </style>
+    <head>
+        <title>Tugas 5 - Deni Permana 2210512015</title>
+        <body>
+            <form action="formIsi2.php" method="post">
+                <fieldset class="fieldset-border">
+                    <p>
+                        <label class="label-text"><span class="red-text">*</span><b>Address</b></label>
+                        <input type="text" name="address" size="30px">
+                        <p><input class="spaced-input" type="text" name="address" size="30px"></p>
+                    </p>
+                    <p>
+                        <label class="label-text"><span class="red-text">*</span><b>City</b></label>
+                        <input type="text" name="city" size="30px">
+                    </p>
+                    <p>
+                        <label class="label-text"><span class="red-text">*</span><b>State</b></label>
+                        <select name="state">
+                            <option value="JKT - Jakarta">JKT - Jakarta</option>
+                            <option value="BTN - Banten">BTN - Banten</option>
+                            <option value="KLM - Kuala Lumpur">KLM - Kuala Lumpur</option>
+                            <option value="SNG - Singapore">SNG - Singapore></option>
+                        </select>
+                    </p>
+                    <p>
+                        <label class="label-text"><span class="red-text">*</span><b>Zip code</b></label>
+                        <input type="text" name="zip_code" size="30px">
+                    </p>
+                    <p>
+                        <label class="label-text"><span class="red-text">*</span><b>Country</b></label>
+                        <select name="country">
+                            <option value="Indonesia">Indonesia</option>
+                            <option value="Malaysia">Malaysia</option>
+                            <option value="Singapore">Singapore</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label><span class="red-text">*</span><b>Addres Type</b></label>
+                        <Label><input type="radio" name="address_type" value="Home"/> Home</Label>
+                        <Label><input type="radio" name="address_type" value="Business"/>Business</Label>
+                    </p>
+                </fieldset>
+            </form>
+        </body>
+    </head>
+</html>
