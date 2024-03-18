@@ -2,36 +2,58 @@
 <html>
 <head>
     <style>
+        body {
+            font-family: 'Times New Roman', sans-serif;
+        }
+        h1, p {
+            text-align: center;
+            margin-bottom: 10px;
+            line-height: 0.5;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            background-color: rgb(39, 37, 37); /* Menyesuaikan latar belakang dengan warna dari kedua tabel */
+            color: white;
+        }
         table {
-            border-collapse: collapse;
-            width: 100%; /* Menyesuaikan lebar tabel */
+            width: auto; /* Menghilangkan lebar tetap dan menyesuaikan dengan konten */
+            border: none;
         }
         td {
-            border: 1px solid black; /* Garis batas untuk kejelasan */
-            padding: 8px; /* Ruang dalam sel */
+            padding: 10px;
+            border: none;
+            text-align: center; /* Menengahkan isi kolom */
         }
-        .custom-width {
-            width: 150px; /* Menyesuaikan lebar kolom */
+        .left-column {
+            text-align: left;
         }
-        .custom-height {
-            height: 50px; /* Menyesuaikan tinggi kolom */
+        .right-column {
+            text-align: right;
         }
     </style>
+    <title>Deskripsi Tugas</title>
 </head>
 <body>
+    <h1>Universitas Pembangunan Nasional "Veteran" Jakarta</h1>
+    <p>Jalan RS. Fatmawati - Pondok Labu Jakarta Selatan </p>
+    <p>Kode Pos 12450</p>
 
-<table>
-  <tr>
-    <td class="custom-width custom-height">Kolom 1</td>
-    <td class="custom-width">Kolom 2</td>
-    <td class="custom-width">Kolom 3</td>
-  </tr>
-  <tr>
-    <td class="custom-width">Kolom 4</td>
-    <td class="custom-width">Kolom 5</td>
-    <td class="custom-width">Kolom 6</td>
-  </tr>
-</table>
+    <div class="container">
+        <table border="1">
+            <tr>
+                <td class="left-column">Beranda</td>
+                <td class="left-column">Profil</td>
+                <td class="left-column">Mahasiswa</td>
+                <td class="left-column">Kontak</td>
+            </tr>
+        </table>
+        <table border="1">
+            <tr>
+                <td class="right-column">Login</td>
+            </tr>
+        </table>
+    </div>
 
 </body>
 </html>

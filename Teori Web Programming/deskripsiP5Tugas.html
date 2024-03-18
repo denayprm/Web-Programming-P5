@@ -10,14 +10,22 @@
             margin-bottom: 10px;
             line-height: 0.5;
         }
+        .container {
+            margin-top: 30px;
+        }
         table {
             width: 100%;
             float: left;
             border: none;
+            height: auto;
         }
         td {
             padding: 10px;
             border: none;
+        }
+        a {
+            text-decoration: none;
+            color: white;
         }
         .center-table {
             background-color: rgb(39, 37, 37);
@@ -25,43 +33,50 @@
         }
         .left-table {
             float: left;
-            width:0;
+            width:auto;
+            height: auto;
+            background-color: rgb(39, 37, 37);
+            color: white;
         }
         .right-table {
             float: right;
-            width:0;
+            width:auto;
+            height: auto;
+            background-color: rgb(39, 37, 37);
+            color: white;
         }
         .left-column {
             text-align: left;
         }
         .right-column {
             text-align: right;
+            column-width: auto;
         }
         </style>
-        <title>Deskripsi Tugas</title>
+        <title>Deskripsi Tugas Pertemuan 5</title>
     </head>
     <body>
         <h1>Universitas Pembangunan Nasional "Veteran" Jakarta</h1>
         <p>Jalan RS. Fatmawati - Pondok Labu Jakarta Selatan </p>
         <p>Kode Pos 12450</p>
 
-        <div>
-            <table class="center-table" >
+        <div class="container">
+            <table class="center-table">
                 <tr>
                     <td>
-                <table border="1" class="left-table">
-                    <tr>
-                        <td class="left-column">Beranda</td>
-                        <td class="left-column">Profil</td>
-                        <td class="left-column">Mahasiswa</td>
-                        <td class="left-column">Kontak</td>
-                    </tr>
-                </table>
-                <table border="1" class="right-table">
-                    <tr>
-                        <td class="right-column">Login</td>
-                    </tr>
-                </table>
+                        <table border="1" class="left-table">
+                            <tr>
+                                <td class="left-column"><a href="tugasP5Kelompok3.html" target="_parent">Beranda</a></td>
+                                <td class="left-column"><a href="tugasP5Kelompok3.html" target="_parent">Profil</a></td>
+                                <td class="left-column"><a href="tugasP5Kelompok3.html" target="_parent">Mahasiswa</a></td>
+                                <td class="left-column"><a href="tugasP5Kelompok3.html" target="_parent">Kontak</a></td>
+                            </tr>
+                        </table>
+                        <table border="1" class="right-table">
+                            <tr>
+                                <td class="right-column"><a href="tugasP5Kelompok3.html" target="_parent">Login</a></td>
+                            </tr>
+                        </table>
                     </td>
                 </tr>
             </table>
