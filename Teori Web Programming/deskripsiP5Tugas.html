@@ -5,79 +5,50 @@
         body {
             font-family: 'Times New Roman', sans-serif;
         }
+        .background {
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
         h1,p {
             text-align: center;
             margin-bottom: 10px;
             line-height: 0.5;
         }
-        .container {
-            margin-top: 30px;
+        .header {
+            text-align: center;
+            padding: 3px;
         }
-        table {
-            width: 100%;
+        .navbar {
+            background-color: #333;
+            overflow: hidden;
+        }
+        .navbar a {
             float: left;
-            border: none;
-            height: auto;
-        }
-        td {
-            padding: 10px;
-            border: none;
-        }
-        a {
-            text-decoration: none;
+            display: block;
             color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
         }
-        .center-table {
-            background-color: rgb(39, 37, 37);
-        }
-        .left-table {
-            float: left;
-            width:auto;
-            height: auto;
-            background-color: rgb(39, 37, 37);
-        }
-        .right-table {
-            float: right;
-            width:auto;
-            height: auto;
-            background-color: rgb(39, 37, 37);
-        }
-        .left-column {
-            text-align: left;
-        }
-        .right-column {
-            text-align: right;
-            column-width: auto;
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
         }
         </style>
         <title>Deskripsi Tugas Pertemuan 5</title>
     </head>
     <body>
-        <h1>Universitas Pembangunan Nasional "Veteran" Jakarta</h1>
-        <p>Jalan RS. Fatmawati - Pondok Labu Jakarta Selatan </p>
-        <p>Kode Pos 12450</p>
-
-        <div class="container">
-            <table class="center-table">
-                <tr>
-                    <td>
-                        <table border="1" class="left-table">
-                            <tr>
-                                <td class="left-column"><a href="tugasP5Kelompok3.html" target="_parent">Beranda</a></td>
-                                <td class="left-column"><a href="tugasP5Kelompok3.html" target="_parent">Profil</a></td>
-                                <td class="left-column"><a href="tugasP5Kelompok3.html" target="_parent">Mahasiswa</a></td>
-                                <td class="left-column"><a href="tugasP5Kelompok3.html" target="_parent">Kontak</a></td>
-                            </tr>
-                        </table>
-                        <table border="1" class="right-table">
-                            <tr>
-                                <td class="right-column"><a href="tugasP5Kelompok3.html" target="_parent">Login</a></td>
-                            </tr>
-                        </table>
-                    </td>
-                </tr>
-            </table>
+        <div class="background header">
+            <h1>Universitas Pembangunan Nasional "Veteran" Jakarta</h1>
+            <p>Jalan RS. Fatmawati - Pondok Labu Jakarta Selatan </p>
+            <p>Kode Pos 12450</p>
         </div>
-
+        <div class="navbar">
+            <a href="tugasP5Kelompok3.html" target="_parent">Beranda</a>
+            <a href="tugasP5Kelompok3.html" target="_parent">Profil</a>
+            <a href="tugasP5Kelompok3.html" target="_parent">Mahasiswa</a>
+            <a href="tugasP5Kelompok3.html" target="_parent">Kontak</a>
+            <a href="tugasP5Kelompok3.html" target="_parent" style="float: right;">Login</a>
+        </div>
     </body>
 </html>
