@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Universitas Pembangunan Nasional Veteran Jakarta</title>
-<link rel="stylesheet" href="style.css">
-<style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Universitas Pembangunan Nasional Veteran Jakarta</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
   body {
     font-family: Arial, sans-serif;
   }
@@ -33,8 +33,12 @@
     display: flex;
     margin: 2px;
   }
-  .column {
-    flex: 50%;
+  .column-left {
+    flex: 75%;
+    padding: 5px;
+  }
+  .column-right {
+    flex: 25%;
     padding: 5px;
   }
   .footer {
@@ -50,8 +54,8 @@
   }
 </style>
 </head>
-<body>
 
+<body>
 <div class="header">
   <h1>Universitas Pembangunan Nasional Veteran Jakarta</h1>
   <p>Jalan RS. Fatmawati - Pondok Labu Jakarta Selatan</p>
@@ -67,7 +71,7 @@
 </div>
 
 <div class="row">
-  <div class="column selamat-datang">
+  <div class="column-left">
     <div class="card">
       <h2>Selamat Datang</h2>
       <p>Ini adalah halaman beranda website silahkan pilih menu untuk mengakses halaman web</p>
@@ -78,7 +82,7 @@
     </div>
   </div>
 
-  <div class="column samping">
+  <div class="column-right">
     <div class="card">
       <h2>Tentang Kami</h2>
       <div style="background-color: grey; height: 80px;">
